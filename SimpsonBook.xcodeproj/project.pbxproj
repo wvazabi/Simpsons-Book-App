@@ -13,6 +13,8 @@
 		1A0A76A0287A142400CC3E32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A0A769E287A142400CC3E32 /* Main.storyboard */; };
 		1A0A76A2287A142700CC3E32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A0A76A1287A142700CC3E32 /* Assets.xcassets */; };
 		1A0A76A5287A142700CC3E32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A0A76A3287A142700CC3E32 /* LaunchScreen.storyboard */; };
+		1A0A76AD287A174E00CC3E32 /* detailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0A76AC287A174E00CC3E32 /* detailsVC.swift */; };
+		1A0A76AF287A229B00CC3E32 /* Simpson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0A76AE287A229B00CC3E32 /* Simpson.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		1A0A76A1287A142700CC3E32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A0A76A4287A142700CC3E32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A0A76A6287A142700CC3E32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A0A76AC287A174E00CC3E32 /* detailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailsVC.swift; sourceTree = "<group>"; };
+		1A0A76AE287A229B00CC3E32 /* Simpson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simpson.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +60,11 @@
 		1A0A7697287A142400CC3E32 /* SimpsonBook */ = {
 			isa = PBXGroup;
 			children = (
+				1A0A76AC287A174E00CC3E32 /* detailsVC.swift */,
 				1A0A7698287A142400CC3E32 /* AppDelegate.swift */,
 				1A0A769A287A142400CC3E32 /* SceneDelegate.swift */,
 				1A0A769C287A142400CC3E32 /* ViewController.swift */,
+				1A0A76AE287A229B00CC3E32 /* Simpson.swift */,
 				1A0A769E287A142400CC3E32 /* Main.storyboard */,
 				1A0A76A1287A142700CC3E32 /* Assets.xcassets */,
 				1A0A76A3287A142700CC3E32 /* LaunchScreen.storyboard */,
@@ -139,8 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A0A769D287A142400CC3E32 /* ViewController.swift in Sources */,
+				1A0A76AD287A174E00CC3E32 /* detailsVC.swift in Sources */,
 				1A0A7699287A142400CC3E32 /* AppDelegate.swift in Sources */,
 				1A0A769B287A142400CC3E32 /* SceneDelegate.swift in Sources */,
+				1A0A76AF287A229B00CC3E32 /* Simpson.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
